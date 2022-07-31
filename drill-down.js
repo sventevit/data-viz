@@ -333,13 +333,13 @@ svg.append("text")
       .attr("y", -50)
       .attr("text-anchor", "middle")
       .style("font-size", "20px")
-      .text("Top 5 Countries with Best Value Wines, by Province and Variety");
+      .text("Top 5 Countries with Best Value Wines, by Province and Wine Variety");
 
       svg.append("text")
          .attr("transform", "translate(" + (width/2) + " ," + (-20) + ")")
          .style("text-anchor", "middle")
          .style("font-size", "16px");
-//         .text("Ranking by Best Value");
+	.text("Best Value Score measured as Rating divided by Price");
 
 /*
 svg.append("text")
