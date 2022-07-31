@@ -2,124 +2,144 @@
 const wines = {
  "name": "wines",
  "children": [
-	{
-	 "name": "Chile",
-   "avg_rating": 7.898,
-	 "children": [
-		{
-		 "name": "Molina",
-     "avg_rating": 8.68,
-		 "children": [
-			{"name": "Carmenère", "size": 10.5},
-			{"name": "Sauvignon Blanc", "size": 9.2},
-			{"name": "Chardonnay", "size": 9.0},
-      {"name": "Merlot", "size": 6.3},
-			{"name": "Cabernet Sauvignon", "size": 8.4}
-		 ]
-		},
-		{
-		 "name": "Rio Claro",
-     "avg_rating": 7.4,
-		 "children": [
-			{"name": "Carmenère", "size": 7.7},
-			{"name": "Merlot", "size": 7.5},
-			{"name": "Sauvignon Blanc", "size": 7.5},
-			{"name": "Cabernet Sauvignon", "size": 6.9}
-		 ]
-		},
-    {
-		 "name": "Casablanca-Curicó Valley",
-     "avg_rating": 6.2,
-		 "children": [
-			{"name": "Sauvignon Blanc", "size": 6.2}
-		 ]
-		},
-    {
-		 "name": "Central Valley",
-     "avg_rating": 9.56,
-		 "children": [
-			{"name": "Moscato", "size": 11.5},
-			{"name": "Malbec", "size": 10.1},
-			{"name": "Shiraz-Cabernet Sauvignon", "size": 9.2},
-			{"name": "Syrah", "size": 8.6},
-			{"name": "Chardonnay", "size": 8.4}
-		 ]
-		},
-		{
-		 "name": "Leyda Valley-Maipo Valley",
-     "avg_rating": 7.65,
-		 "children": [
-			{"name": "Sauvignon Blanc", "size": 8.6},
-      {"name": "Pinot Noir", "size": 6.7}
-		 ]
-		}
-	 ]
-	},
-	{
-	 "name": "Spain",
-   "avg_rating": 8.78,
-	 "children": [
-		{
-		 "name": "Northern Spain",
-     "avg_rating": 8.58,
-		 "children": [
-			{"name": "Viura-Chardonnay", "size": 9.0},
-			{"name": "Verdejo-Sauvignon Blanc", "size": 8.6},
-			{"name": "Garnacha-Monastrell", "size": 8.5},
-			{"name": "Shiraz-Tempranillo", "size": 8.4},
-			{"name": "Syrah-Grenache", "size": 8.4}
-		 ]
-		},
-    {
-		 "name": "Central Spain",
-     "avg_rating": 10.64,
-		 "children": [
-			{"name": "Shiraz", "size": 12.1},
-			{"name": "Rosé", "size": 11.1},
-			{"name": "Macabeo-Moscatel", "size": 10.6},
-			{"name": "Moscato", "size": 9.7},
-			{"name": "Rosato", "size": 9.7}
-		 ]
-		},
-    {
-		 "name": "Levante",
-     "avg_rating": 10.08,
-		 "children": [
-			{"name": "Cabernet Sauvignon", "size": 11.7},
-			{"name": "Shiraz-Tempranillo", "size": 11.4},
-			{"name": "Merseguera-Sauvignon Blanc", "size": 9.4},
-			{"name": "Bobal-Cabernet Sauvignon", "size": 9.3},
-			{"name": "Macabeo", "size": 8.6}
-		 ]
-		},
-    {
-    "name": "Spain Other",
-    "avg_rating": 9.78,
-    "children": [
-     {"name": "Macabeo", "size": 10.6},
-     {"name": "Moscato", "size": 10.1},
-     {"name": "Rosé", "size": 9.4},
-     {"name": "Verdejo", "size": 9.4},
-     {"name": "Viura", "size": 9.4}
-    ]
-   },
    {
-   "name": "Galicia",
-   "avg_rating": 4.82,
+ 	 "name": "Spain",
+    "avg_rating": 8.78,
+ 	 "children": [
+     {
+ 		 "name": "Central Spain",
+      "avg_rating": 10.64,
+ 		 "children": [
+ 			{"name": "Shiraz", "size": 12.1},
+ 			{"name": "Rosé", "size": 11.1},
+ 			{"name": "Macabeo-Moscatel", "size": 10.6},
+ 			{"name": "Moscato", "size": 9.7},
+ 			{"name": "Rosato", "size": 9.7}
+ 		 ]
+ 		},
+     {
+ 		 "name": "Levante",
+      "avg_rating": 10.08,
+ 		 "children": [
+ 			{"name": "Cabernet Sauvignon", "size": 11.7},
+ 			{"name": "Shiraz-Tempranillo", "size": 11.4},
+ 			{"name": "Merseguera-Sauvignon Blanc", "size": 9.4},
+ 			{"name": "Bobal-Cabernet Sauvignon", "size": 9.3},
+ 			{"name": "Macabeo", "size": 8.6}
+ 		 ]
+ 		},
+     {
+     "name": "Spain Other",
+     "avg_rating": 9.78,
+     "children": [
+      {"name": "Macabeo", "size": 10.6},
+      {"name": "Moscato", "size": 10.1},
+      {"name": "Rosé", "size": 9.4},
+      {"name": "Verdejo", "size": 9.4},
+      {"name": "Viura", "size": 9.4}
+     ]
+    },
+
+  {
+   "name": "Northern Spain",
+    "avg_rating": 8.58,
    "children": [
-    {"name": "Godello", "size": 5.4},
-    {"name": "Treixadura", "size": 4.8},
-    {"name": "White Blend", "size": 4.8},
-    {"name": "Albariño", "size": 4.6},
-    {"name": "Mencía", "size": 4.5}
+    {"name": "Viura-Chardonnay", "size": 9.0},
+    {"name": "Verdejo-Sauvignon Blanc", "size": 8.6},
+    {"name": "Garnacha-Monastrell", "size": 8.5},
+    {"name": "Shiraz-Tempranillo", "size": 8.4},
+    {"name": "Syrah-Grenache", "size": 8.4}
    ]
-  }
-	 ]
-	},
+ },
+ {
+ "name": "Galicia",
+ "avg_rating": 4.82,
+ "children": [
+  {"name": "Godello", "size": 5.4},
+  {"name": "Treixadura", "size": 4.8},
+  {"name": "White Blend", "size": 4.8},
+  {"name": "Albariño", "size": 4.6},
+  {"name": "Mencía", "size": 4.5}
+ ]
+}
+ 	 ]
+ 	},
+  {
+   "name": "France",
+   "avg_rating": 7.499,
+   "children": [
+     {
+     "name": "France Other",
+     "avg_rating": 10.06,
+     "children": [
+      {"name": "Cabernet Sauvignon-Merlot", "size": 14.2},
+      {"name": "Moscato", "size": 9.6},
+      {"name": "Merlot-Grenache", "size": 8.9},
+      {"name": "Rhône-style White Blend", "size": 8.8},
+      {"name": "Tannat-Syrah", "size": 8.8}
+     ]
+    },
+    {
+     "name": "Languedoc-Roussillon",
+     "avg_rating": 8.62,
+     "children": [
+      {"name": "Grenache Noir", "size": 9.6},
+      {"name": "Chardonnay-Viognier", "size": 8.6},
+      {"name": "Cinsault", "size": 8.6},
+      {"name": "Cabernet Sauvignon", "size": 8.5},
+      {"name": "Marsanne-Roussanne", "size": 7.8}
+     ]
+    },
+
+   {
+   "name": "Southwest France",
+   "avg_rating": 8.38,
+   "children": [
+    {"name": "Colombard", "size": 9.5},
+    {"name": "Tannat-Syrah", "size": 8.6},
+    {"name": "Ugni Blanc-Colombard", "size": 8.2},
+    {"name": "Cabernet Sauvignon-Merlot", "size": 7.8},
+    {"name": "Syrah-Merlot", "size": 7.8}
+   ]
+  },
+  {
+  "name": "Provence",
+  "avg_rating": 5.96,
+  "children": [
+   {"name": "Syrah-Grenache", "size": 7.2},
+   {"name": "Pinot Noir", "size": 7.2},
+   {"name": "Viognier", "size": 6.0},
+   {"name": "Syrah", "size": 4.8},
+   {"name": "Vermentino", "size": 4.6}
+  ]
+ },
+ {
+ "name": "Beaujolais",
+ "avg_rating": 4.475,
+ "children": [
+  {"name": "Gamay Noir", "size": 4.8},
+  {"name": "Chardonnay", "size": 4.7},
+  {"name": "Gamay", "size": 4.2},
+  {"name": "Rosé", "size": 4.2}
+ ]
+}
+]
+},
 	{
 	 "name": "Australia",
    "avg_rating": 6.936,
 	 "children": [
+     {
+     "name": "Australia Other",
+     "avg_rating": 9.42,
+     "children": [
+      {"name": "Malbec", "size": 10.5},
+      {"name": "Petite Sirah", "size": 9.7},
+      {"name": "Sauvignon Blanc-Semillon", "size": 9.4},
+      {"name": "Pinot Grigio", "size": 8.9},
+      {"name": "G-S-M", "size": 8.6}
+     ]
+   },
 		{
 		 "name": "New South Wales",
      "avg_rating": 7.24,
@@ -163,32 +183,77 @@ const wines = {
    {"name": "Rhône-style White Blend", "size": 5.6},
    {"name": "Pinot Gris", "size": 5.3}
   ]
- },
- {
- "name": "Australia Other",
- "avg_rating": 9.42,
- "children": [
-  {"name": "Malbec", "size": 10.5},
-  {"name": "Petite Sirah", "size": 9.7},
-  {"name": "Sauvignon Blanc-Semillon", "size": 9.4},
-  {"name": "Pinot Grigio", "size": 8.9},
-  {"name": "G-S-M", "size": 8.6}
- ]
-}
+ }
+
 	 ]
 	},
+  {
+   "name": "Chile",
+   "avg_rating": 7.898,
+   "children": [
+     {
+      "name": "Central Valley",
+      "avg_rating": 9.56,
+      "children": [
+       {"name": "Moscato", "size": 11.5},
+       {"name": "Malbec", "size": 10.1},
+       {"name": "Shiraz-Cabernet Sauvignon", "size": 9.2},
+       {"name": "Syrah", "size": 8.6},
+       {"name": "Chardonnay", "size": 8.4}
+      ]
+     },
+    {
+     "name": "Molina",
+     "avg_rating": 8.68,
+     "children": [
+      {"name": "Carmenère", "size": 10.5},
+      {"name": "Sauvignon Blanc", "size": 9.2},
+      {"name": "Chardonnay", "size": 9.0},
+      {"name": "Merlot", "size": 6.3},
+      {"name": "Cabernet Sauvignon", "size": 8.4}
+     ]
+    },
+    {
+     "name": "Rio Claro",
+     "avg_rating": 7.4,
+     "children": [
+      {"name": "Carmenère", "size": 7.7},
+      {"name": "Merlot", "size": 7.5},
+      {"name": "Sauvignon Blanc", "size": 7.5},
+      {"name": "Cabernet Sauvignon", "size": 6.9}
+     ]
+    },
+
+    {
+     "name": "Leyda Valley-Maipo Valley",
+     "avg_rating": 7.65,
+     "children": [
+      {"name": "Sauvignon Blanc", "size": 8.6},
+      {"name": "Pinot Noir", "size": 6.7}
+     ]
+   },
+   {
+    "name": "Casablanca-Curicó Valley",
+    "avg_rating": 6.2,
+    "children": [
+     {"name": "Sauvignon Blanc", "size": 6.2}
+    ]
+   }
+   ]
+  },
 	{
 	 "name": "Austria",
    "avg_rating": 5.074,
    "children": [
-    {
-     "name": "Österreichischer Perlwein",
-     "avg_rating": 5.35,
+     {
+     "name": "Steiermark",
+     "avg_rating": 5.8,
      "children": [
-      {"name": "Muskat Ottonel", "size": 7.1},
-      {"name": "Zweigelt", "size": 5.7},
-      {"name": "Sparkling Blend", "size": 4.6},
-      {"name": "Pinot Noir", "size": 4.0}
+      {"name": "Rosé", "size": 7.2},
+      {"name": "Austrian white blend", "size": 7.1},
+      {"name": "Scheurebe", "size": 5.4},
+      {"name": "Pinot Blanc", "size": 4.9},
+      {"name": "Chardonnay", "size": 4.4}
      ]
     },
     {
@@ -202,17 +267,7 @@ const wines = {
      {"name": "Sparkling Blend", "size": 3.2}
     ]
    },
-   {
-   "name": "Steiermark",
-   "avg_rating": 5.8,
-   "children": [
-    {"name": "Rosé", "size": 7.2},
-    {"name": "Austrian white blend", "size": 7.1},
-    {"name": "Scheurebe", "size": 5.4},
-    {"name": "Pinot Blanc", "size": 4.9},
-    {"name": "Chardonnay", "size": 4.4}
-   ]
-  },
+
   {
   "name": "Niederösterreich",
   "avg_rating": 4.98,
@@ -225,6 +280,16 @@ const wines = {
   ]
  },
  {
+  "name": "Österreichischer Perlwein",
+  "avg_rating": 5.35,
+  "children": [
+   {"name": "Muskat Ottonel", "size": 7.1},
+   {"name": "Zweigelt", "size": 5.7},
+   {"name": "Sparkling Blend", "size": 4.6},
+   {"name": "Pinot Noir", "size": 4.0}
+  ]
+ },
+ {
  "name": "Wiener Gemischter Satz",
  "avg_rating": 3.6,
  "children": [
@@ -233,67 +298,8 @@ const wines = {
  ]
 }
    ]
-	},
-	{
-	 "name": "France",
-   "avg_rating": 7.499,
-   "children": [
-    {
-     "name": "Languedoc-Roussillon",
-     "avg_rating": 8.62,
-     "children": [
-      {"name": "Grenache Noir", "size": 9.6},
-      {"name": "Chardonnay-Viognier", "size": 8.6},
-      {"name": "Cinsault", "size": 8.6},
-      {"name": "Cabernet Sauvignon", "size": 8.5},
-      {"name": "Marsanne-Roussanne", "size": 7.8}
-     ]
-    },
-    {
-    "name": "France Other",
-    "avg_rating": 10.06,
-    "children": [
-     {"name": "Cabernet Sauvignon-Merlot", "size": 14.2},
-     {"name": "Moscato", "size": 9.6},
-     {"name": "Merlot-Grenache", "size": 8.9},
-     {"name": "Rhône-style White Blend", "size": 8.8},
-     {"name": "Tannat-Syrah", "size": 8.8}
-    ]
-   },
-   {
-   "name": "Southwest France",
-   "avg_rating": 8.38,
-   "children": [
-    {"name": "Colombard", "size": 9.5},
-    {"name": "Tannat-Syrah", "size": 8.6},
-    {"name": "Ugni Blanc-Colombard", "size": 8.2},
-    {"name": "Cabernet Sauvignon-Merlot", "size": 7.8},
-    {"name": "Syrah-Merlot", "size": 7.8}
-   ]
-  },
-  {
-  "name": "Provence",
-  "avg_rating": 5.96,
-  "children": [
-   {"name": "Syrah-Grenache", "size": 7.2},
-   {"name": "Pinot Noir", "size": 7.2},
-   {"name": "Viognier", "size": 6.0},
-   {"name": "Syrah", "size": 4.8},
-   {"name": "Vermentino", "size": 4.6}
-  ]
- },
- {
- "name": "Beaujolais",
- "avg_rating": 4.475,
- "children": [
-  {"name": "Gamay Noir", "size": 4.8},
-  {"name": "Chardonnay", "size": 4.7},
-  {"name": "Gamay", "size": 4.2},
-  {"name": "Rosé", "size": 4.2}
- ]
-}
-]
-}
+	}
+
 ]
 
 };
@@ -301,7 +307,7 @@ const wines = {
 
 var margin = {top: 100, right: 120, bottom: 0, left: 150},
 		width = 960 - margin.left - margin.right,
-		height = 280 - margin.top - margin.bottom;
+		height = 300 - margin.top - margin.bottom;
 
 var x = d3.scaleLinear()
 		.range([0, width]);
@@ -330,17 +336,22 @@ svg.append("rect")
 
 svg.append("text")
       .attr("x", width/2)
-      .attr("y", -50)
+      .attr("y", -60)
       .attr("text-anchor", "middle")
       .style("font-size", "20px")
-      .text("Top 5 Countries with Best Value Wines, by Province and Wine Variety");
+      .text("Top 5 Countries with Best Value Wines, Drilled Down by Province and Variety");
 
       svg.append("text")
-         .attr("transform", "translate(" + (width/2) + " ," + (-20) + ")")
+         .attr("transform", "translate(" + (width/2) + " ," + (-30) + ")")
          .style("text-anchor", "middle")
          .style("font-size", "16px")
-	 .text("Best Value Score measured as Rating divided by Price");
+         .text("Best Value Score measured as Rating divided by Price");
 
+         svg.append("text")
+            .attr("transform", "translate(" + (width/2) + " ," + (195) + ")")
+            .style("text-anchor", "middle")
+            .style("font-size", "16px")
+            .text("Click on a bar to drill down / Click on empty space to go back.");
 /*
 svg.append("text")
    .attr("transform", "rotate(-90)")
@@ -348,7 +359,7 @@ svg.append("text")
    .attr("y", -50)
    .style("text-anchor", "middle")
    .style("font-size", "16px")
-   .text("Countries");
+   .text("Click on a Country bar to further drill down by Province / Variety");
 */
 
 svg.append("g")
@@ -366,8 +377,8 @@ svg.append("g")
         note: {
           title: "Spain has the best value wines."
         },
-        x: 750,
-        y: 160,
+        x: 800,
+        y: 130,
         dy: 50,
         dx: 50
       }
